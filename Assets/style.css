@@ -21,14 +21,26 @@ h2 {
 
 .navBar {
     overflow: hidden;
-    background-color: #3a5bb8;
 }
 
 .navBar input[type=text] {
     float: left;
     padding: 6px;
     margin-top: 10px;
-    margin-right: 1px;
+    margin-right: 5px;
     margin-bottom: 10px;
     font-size: 20px;
+}
+
+.btn {
+    
+    border-radius: 10%;
+    font-size: 1.6rem;
+    text-decoration: none;
+    padding: 6px 10px;
+    width: 12%;
+    display: block;
+    margin: 65px ;
+
+  
 }
