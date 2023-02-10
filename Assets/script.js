@@ -23,3 +23,5 @@ searchBtn.addEventListener("click", function(){
     var cityValue = document.getElementById("city-value").value
     getLatLon(cityValue)
 })
+
+
