@@ -1,43 +1,16 @@
-* {
-    padding: 0px;
-    margin: 0px;
+html, body, .container-fluid, .content-row {
+    height: 100%;
 }
 
-.header {
-    padding: 25px;
-    background-color: #28377a;
-    color: #ffffff;
+.hide {
+    display: none;
 }
 
-.header h1 {
-    font-size: 50px;
-    text-align: center;  
-}
-
-h2 {
-    padding: 20px;
-    font-size: 40px;
-    margin-left: 0px;
-}
-
-.navBar {
-    overflow: hidden;
-}
-
-.navBar input[type=text] {
-    float: left;
-    padding: 6px;
-    margin: 20px;
-    font-size: 20px;
-}
-
-.btn {
-    padding: 5px;
-    border-radius: 10px;
-    font-size: 1.6rem;
-    width: 100px;
-    display: block;
-    margin: 10px;
+.city-btn:hover {
+    background-color: #f6f5f5;
     cursor: pointer;
-  
+}
+
+.card {
+    background-color: #cce5ff;
 }
